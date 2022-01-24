@@ -14,8 +14,8 @@
         <tr>
         <th scope="col">No</th>
         <th scope="col">Name</th>
-        <th scope="col">Roll</th>
-        <th scope="col">Address</th>
+        <th scope="col">email</th>
+        <th scope="col">city</th>
         <th>Action</th>
         </tr>
     </thead>
@@ -24,8 +24,8 @@
           <tr>
         <th scope="row">{{$loop->iteration}}</th>
         <td>{{$student->name}}</td>
-        <td>{{$student->roll}}</td>
-        <td>{{$student->address}}</td>
+        <td>{{$student->email}}</td>
+        <td>{{$student->city}}</td>
         <td>
      
     <a href="{{url('edit', $student->id)}}" class="btn btn-primary">Edit</a>
