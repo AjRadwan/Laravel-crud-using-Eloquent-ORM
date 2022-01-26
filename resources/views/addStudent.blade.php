@@ -12,7 +12,7 @@
       </div>
       <div class="mb-3">
         <label  class="form-label">email</label>
-        <input type="number" name="email" class="form-control"  placeholder="email@example.com">
+        <input type="email" name="email" class="form-control"  placeholder="email@example.com">
       </div>
     <div class="mb-3">
         <label  class="form-label">city</label>

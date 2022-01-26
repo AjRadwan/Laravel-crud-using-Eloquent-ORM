@@ -19,7 +19,7 @@
         <th>Action</th>
         </tr>
     </thead>
-    {{-- <tbody>
+    <tbody>
       @foreach ($students as $student)
           <tr>
         <th scope="row">{{$loop->iteration}}</th>
@@ -35,7 +35,7 @@
         </td>
         </tr>
         @endforeach
-    </tbody> --}}
+    </tbody>
   
     </table>
      <div class="d-flex justify-content-center ">
